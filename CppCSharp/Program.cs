@@ -12,6 +12,7 @@ namespace CppCSharp
         {
             CppBLBridge b = new CppBLBridge();
             b.add(20, 30);
+            b.add(2, 3);
         }
     }
 }
