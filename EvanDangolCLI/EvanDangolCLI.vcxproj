@@ -134,12 +134,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EvanDangolCLI.h" />
+    <ClInclude Include="FileHandleCli.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="EvanDangolCLI.cpp" />
+    <ClCompile Include="FileHandleCli.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

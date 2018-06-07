@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvanDangolCLI", "EvanDangol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CppCSharp", "CppCSharp\CppCSharp.csproj", "{E34BA674-938E-42FD-A520-ECE9A5A3D9EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EvandangolMfc", "EvandangolMfc\EvandangolMfc.vcxproj", "{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,16 @@ Global
 		{E34BA674-938E-42FD-A520-ECE9A5A3D9EC}.Release|x64.Build.0 = Release|Any CPU
 		{E34BA674-938E-42FD-A520-ECE9A5A3D9EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{E34BA674-938E-42FD-A520-ECE9A5A3D9EC}.Release|x86.Build.0 = Release|Any CPU
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Debug|x64.ActiveCfg = Debug|x64
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Debug|x64.Build.0 = Debug|x64
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Debug|x86.Build.0 = Debug|Win32
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Release|x64.ActiveCfg = Release|x64
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Release|x64.Build.0 = Release|x64
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Release|x86.ActiveCfg = Release|Win32
+		{BF7E4E79-0913-43C5-A9C9-515CBF542EFF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

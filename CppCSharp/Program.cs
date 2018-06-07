@@ -1,18 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using EvanDangolCLI;
+﻿using EvanDangolCLI;
+using System;
+using System.Runtime.InteropServices;
+
 namespace CppCSharp
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            CppBLBridge b = new CppBLBridge();
-            b.add(20, 30);
-            b.add(2, 3);
+            //CppBLBridge b = new CppBLBridge();
+            //b.add(20, 30);
+            //b.add(2, 3);
+            FileHandleCli f = new FileHandleCli();
+            f.WriteFile();
+            f.ReadFile();
+          Console.WriteLine( f.returnstring());
+            //f.add();
+            //Console.WriteLine(f.GetCin());
+           
         }
     }
 }
