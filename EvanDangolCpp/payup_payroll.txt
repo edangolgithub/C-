@@ -1,0 +1,9 @@
+09
+00102535
+0000000001Smith          John      0000030551
+0000470102Gerry          Daphne    0000110250
+0000000007Isabelle       Leonardo  0000027500
+0000000101Hiddelnov      Estevan   0000008500
+0000043710Georgette      Hanna     0000075000
+0000000445Morta          David     0000008825
+0000027111Vincent        Hannah    0000047500
